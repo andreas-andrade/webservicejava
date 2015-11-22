@@ -17,6 +17,7 @@ public class ProdutoResource {
 		p.setPreco(50.0 * id);
 		p.setId(id);
 		
+		System.out.println("produto falso gerado");
 		return p;
 	}
 	
